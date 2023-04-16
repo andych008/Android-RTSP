@@ -25,9 +25,12 @@ public class MainActivity extends Activity {
 
 //    public static final String URL = "rtsp://admin:admin123@10.31.11.79:554/cam/realmonitor?channel=1@subtype=0";
 
-    public static final String URL = "rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov";
+//    public static final String URL = "rtsp://184.72.239.149/vod/mp4://BigBuckBunny_175k.mov";
 
 //    public static final String URL = "rtsp://10.31.0.61:8554/test.mkv";
+
+    public static final String URL = "rtsp://192.168.31.187:8554/";
+//    public static final String URL = "rtmp://58.200.131.2:1935/livetv/cctv1";
 
     private GLSurfaceView mSurfaceView;
     private RtspSurfaceRender mRender;
